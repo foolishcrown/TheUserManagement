@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/J3.L.P0001">
+    <Resource name="DBcon" 
+              auth="Container" 
+              type="javax.sql.DataSource" 
+              username="sa" password="1" 
+              driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+              url="jdbc:sqlserver://localhost:1433;databaseName=UserDB" 
+              maxActive="20" maxIdle="10" maxWait="-1"/> 
+</Context>
+
+
